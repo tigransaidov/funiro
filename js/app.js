@@ -259,6 +259,10 @@ function ibg() {
     }
 }
 
+
+console.log(isMobileDevice());
+console.log(is_touch_enabled());
+
 ibg();
 lightGallery(document.getElementById('gallery'), {
         selector: '.row-gallery__item'
@@ -956,6 +960,3 @@ let _slideToggle = (target, duration = 500) => {
         return _slideUp(target, duration);
     }
 }
-
-console.log(isMobileDevice());
-console.log(is_touch_enabled());
