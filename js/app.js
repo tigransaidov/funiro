@@ -1,5 +1,3 @@
-console.log('BUG1!!')
-
 const iconMenu = document.querySelector('.icon-menu');
 const menuBody = document.querySelector('.menu__body');
 
