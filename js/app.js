@@ -259,7 +259,7 @@ function ibg() {
     }
 }
 
-
+console.log('asd');
 console.log(isMobileDevice());
 console.log(is_touch_enabled());
 
